@@ -1,0 +1,23 @@
+<html>
+
+  <head>
+
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <script src='/js'></script>
+
+  </head>
+
+  <body onload="getData()">
+
+    <div id="bar"></div></br>
+
+    <div id="pie"></div></br>
+    
+    <h1>Fully Vaccinated Rate in each Location</h1>
+    Location (ex. NY): <input type="text" id="locText"></input>
+    <button onclick="getLocData();">Plot</button></br>
+    <div id="line"></div>
+
+  </body>
+  
+</html>
